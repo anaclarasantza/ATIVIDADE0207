@@ -14,9 +14,10 @@ body {
 #intro-pag {
     display: flex;
     flex-direction: column;
-
     align-items: center;
     justify-content: center;
+    border-bottom: 0.4px solid #FFF2E7;
+    margin-bottom: 100px;
 }
 
 .conteudo-principal-escrito-titulo {
@@ -44,7 +45,7 @@ body {
     align-items: center;
     justify-content: center;
     margin-top: 90px;
-    margin-bottom: 140px;
+    margin-bottom: 180px;
 }
 
 .conteudo-principal-escrito-lista-item {
@@ -52,7 +53,14 @@ body {
     text-decoration: none;
     font-weight: 400;
     font-size: 18px;
+    border: solid 4px #CC8373;
+    border-radius: 20px;
 }
+
+.conteudo-principal-escrito-lista-item:hover {
+    background-color: rgba(235, 214, 196, 0.53);
+}
+
 
 .conteudo-padrao {
     display: flex;
@@ -67,4 +75,10 @@ body {
     text-shadow: 3px 3px 3px black;
     font-weight: 800;
     font-size: 32px;
+}
+
+footer {
+    border-top: 0.4px solid #FFF2E7;
+    margin-bottom: 140px;
+    padding-top: 140px;
 }
