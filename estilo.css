@@ -81,6 +81,8 @@ body {
 
 footer {
     border-top: 0.4px solid #FFF2E7;
-    margin-bottom: 140px;
+    width: 50%;
     padding-top: 140px;
+    display: block;
+    margin: auto auto 64px auto;
 }
