@@ -53,8 +53,10 @@ body {
     text-decoration: none;
     font-weight: 400;
     font-size: 18px;
-    border: solid 4px #CC8373;
+    border: solid 2px black;
     border-radius: 20px;
+    background-color: #CD5555;
+    padding: 5px;
 }
 
 .conteudo-principal-escrito-lista-item:hover {
